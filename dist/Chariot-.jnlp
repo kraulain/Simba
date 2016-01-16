@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Chariot-.jnlp">
+  <information>
+    <title>Chariot-</title>
+    <vendor>kraulain</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Chariot-.jar" size="16534" download="eager" />
+    <jar href="lib/javax.persistence_2.1.0.v201304241213.jar" size="164637" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Chariot-" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Chariot.Main"  name="Chariot-" />
+  <update check="always"/>
+</jnlp>
